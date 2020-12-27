@@ -1,3 +1,8 @@
+# Assignment updates
+> desktop version is done, only mobile version is pending
+
+
+
 # The Virtual Keyboard
 > A virtual keyboard from scratch with Vanilla JS, HTML, and CSS that can be used in the browser and will be responsive.
 One to two paragraph statement about your product and what it does.

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <title>Virtual Keyboard</title>
+    </head>
+    <body onload="init()">
+        <section class="section-main">
+            <div class="row btn-numbers">
+                <textarea id="typing" name="typing" onfocus="this.blur()" readonly></textarea>
+            </div>
+            <div class="row">
+                    <span class="switch btn-numbers"><p>~</p><p>`</p></span>
+                    <span class="switch btn-numbers"><p>!</p><p>1</p></span>
+                    <span class="switch btn-numbers"><p>@</p><p>2</p></span>
+                    <span class="switch btn-numbers"><p>#</p><p>3</p></span>
+                    <span class="switch btn-numbers"><p>$</p><p>4</p></span>
+                    <span class="switch btn-numbers"><p>%</p><p>5</p></span>
+                    <span class="switch btn-numbers"><p>^</p><p>6</p></span>
+                    <span class="switch btn-numbers"><p>&</p><p>7</p></span>
+                    <span class="switch btn-numbers"><p>*</p><p>8</p></span>
+                    <span class="switch btn-numbers"><p>(</p><p>9</p></span>
+                    <span class="switch btn-numbers"><p>)</p><p>0</p></span>
+                    <span class="switch btn-numbers"><p>_</p><p>-</p></span>
+                    <span class="switch btn-numbers"><p>+</p><p>=</p></span>
+                    <span class="switch btn-2 text-right">delete</span>
+
+                    <span class="clearfix"></span>
+
+                    <span class="switch btn-2">tab</span>
+                    <span class="switch letter">q</span>
+                    <span class="switch letter">w</span>
+                    <span class="switch letter">e</span>
+                    <span class="switch letter">r</span>
+                    <span class="switch letter">t</span>
+                    <span class="switch letter">y</span>
+                    <span class="switch letter">u</span>
+                    <span class="switch letter">i</span>
+                    <span class="switch letter">o</span>
+                    <span class="switch letter">p</span>
+                    <span class="switch btn-numbers"><p>{</p><p>[</p></span>
+                    <span class="switch btn-numbers"><p>}</p><p>]</p></span>
+                    <span class="switch btn-numbers"><p>|</p><p>\</p></span>
+
+                    <span class="clearfix"></span>
+
+                    <span id="caps-lock" class="switch btn-2 position-relative">caps <p class="caps-off"></p></span>
+                    <span class="switch letter">a</span>
+                    <span class="switch letter">s</span>
+                    <span class="switch letter">d</span>
+                    <span class="switch letter">f</span>
+                    <span class="switch letter">g</span>
+                    <span class="switch letter">h</span>
+                    <span class="switch letter">j</span>
+                    <span class="switch letter">k</span>
+                    <span class="switch letter">l</span>
+                    <span class="switch btn-numbers"><p>:</p><p>;</p></span>
+                    <span class="switch btn-numbers"><p>"</p><p>'</p></span>
+                    <span class="switch btn-2 text-right">enter</span>
+
+                    <span class="clearfix"></span>
+
+                    <span class="switch btn-4">shift</span>
+                    <span class="switch letter">z</span>
+                    <span class="switch letter">x</span>
+                    <span class="switch letter">c</span>
+                    <span class="switch letter">v</span>
+                    <span class="switch letter">b</span>
+                    <span class="switch letter">n</span>
+                    <span class="switch letter">m</span>
+                    <span class="switch btn-numbers"><p><</p><p>,</p></span>
+                    <span class="switch btn-numbers"><p>></p><p>.</p></span>
+                    <span class="switch btn-numbers"><p>?</p><p>/</p></span>
+                    <span class="switch btn-4 text-right">shift</span>
+
+                    <span class="clearfix"></span>
+
+                    <span class="switch small-font">ctrl</span>
+                    <span class="switch small-font">alt</span>
+                    <span class="switch btn-cmd">command</span>
+                    <span class="switch btn-space">&nbsp;</span>
+                    <span class="switch btn-cmd">command</span>
+                    <span class="switch small-font">alt</span>
+                    <div class="arrow-div">
+                        <span class="switch btn-arrow btn-up small-font">&uparrow;</span>
+                        <span class="switch btn-arrow small-font">&leftarrow;</span>
+                        <span class="switch btn-arrow small-font">&downarrow;</span>
+                        <span class="switch btn-arrow small-font">&rightarrow;</span>
+                    </div>
+                    
+            </div>
+        </section>
+        <script type="text/javascript" src="./resources/js/util.js"></script>
+        <script type="text/javascript" src="./resources/js/index.js"></script>
+    </body>
+</html>
