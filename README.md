@@ -1,6 +1,4 @@
 # Only mobile version is pending
-here's the link to demo
-
 
 
 
