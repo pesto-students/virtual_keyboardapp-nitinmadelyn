@@ -1,4 +1,5 @@
-# Only mobile version is pending
+# Assignment updates
+> desktop version is done, only mobile version is pending
 
 
 
